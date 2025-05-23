@@ -6,4 +6,8 @@ public partial class FlexLayoutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+    public void ButtonNextPage(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AbsoluteLayoutPage());
+    }
 }

@@ -3,10 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LayoutCSolorzano.Views.FlexLayoutPage"
              Title="FlexLayoutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView>
+        <FlexLayout Direction="Column" 
+                    AlignItems="Center" 
+                    JustifyContent="Center">
+
+            <StackLayout Orientation="Vertical" 
+                         HorizontalOptions="FillAndExpand">
+                <Button Text="Boton Inutil 1" VerticalOptions="Center"  WidthRequest="200" HeightRequest="50"/>
+                <Label HeightRequest="80"/>
+                <Button Text="Boton Inutil 2" VerticalOptions="Center"  WidthRequest="200" HeightRequest="50"/>
+                <Label HeightRequest="80"/>
+                <Button Text="Boton Inutil 3" VerticalOptions="Center"  WidthRequest="200" HeightRequest="50"/>
+                <Label HeightRequest="80"/>
+                <Button Text="Boton Inutil 4" VerticalOptions="Center"  WidthRequest="200" HeightRequest="50"/>
+
+            </StackLayout>
+
+            <Button Text="Ir a Absolute Layout" Clicked="ButtonNextPage" />
+
+
+        </FlexLayout>
+    </ScrollView>
 </ContentPage>

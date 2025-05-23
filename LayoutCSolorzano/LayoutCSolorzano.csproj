@@ -72,6 +72,9 @@
 	  <MauiXaml Update="VertiicalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\AbsoluteLayoutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ColorGrid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
