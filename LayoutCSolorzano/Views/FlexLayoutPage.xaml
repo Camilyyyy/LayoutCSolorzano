@@ -20,8 +20,8 @@
                 <Button Text="Boton Inutil 4" VerticalOptions="Center"  WidthRequest="200" HeightRequest="50"/>
 
             </StackLayout>
-
-            <Button Text="Ir a Absolute Layout" Clicked="ButtonNextPage" />
+            <Label HeightRequest="80"/>
+            <Button Text="Ir a Absolute Layout" Clicked="ButtonNextPage" BackgroundColor="Aquamarine" />
 
 
         </FlexLayout>
