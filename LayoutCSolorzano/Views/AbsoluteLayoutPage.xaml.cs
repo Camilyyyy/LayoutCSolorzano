@@ -6,4 +6,9 @@ public partial class AbsoluteLayoutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    public void ButtonNextPage(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ColorGrid());
+    }
 }
