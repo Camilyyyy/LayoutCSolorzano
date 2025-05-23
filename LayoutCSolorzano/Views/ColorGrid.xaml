@@ -16,10 +16,7 @@
         <BoxView Color="Green" Grid.Row="0" Grid.Column="0" />
         <BoxView Color="CornflowerBlue" Grid.Row="0" Grid.Column="1"/>
         <BoxView Color="Yellow" Grid.Row="1" Grid.Column="0"/>
-
-        <VerticalStackLayout Grid.Row="1" Grid.Column="1">
-            <BoxView Color="Red" />
-            <Button Text="Ir a StackLayout" Clicked="ButtonNextPage" />
-        </VerticalStackLayout>
+        <BoxView Color="Black" Grid.Row="1" Grid.Column="1"/>
+        <Button Text="Ir a StackLayout" Clicked="ButtonNextPage" Grid.Row="1" Grid.Column="1" TextColor="White"/>
     </Grid>
 </ContentPage>
