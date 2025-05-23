@@ -4,14 +4,22 @@
              x:Class="LayoutCSolorzano.Views.AbsoluteLayoutPage"
              Title="AbsoluteLayoutPage">
 
-    <ScrollView>
-        <FlexLayout>
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
-                <Image Source="gatito.png.jpg" WidthRequest="500" HeightRequest="500" VerticalOptions="Center"/>
-                <Label HeightRequest="80"/>
-                <Button Text="Boton Grid" VerticalOptions="Center" WidthRequest="200" HeightRequest="50" Clicked="ButtonNextPage"/>
-            </StackLayout>
-        </FlexLayout>
-    </ScrollView>
+    <AbsoluteLayout>
+
+    
+        <Image Source="gatito.png.jpg"
+               WidthRequest="900"
+               HeightRequest="500"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,200,200"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button Text="Boton Grid"
+                WidthRequest="200"
+                HeightRequest="50"
+                Clicked="ButtonNextPage"
+                AbsoluteLayout.LayoutBounds="1,1,200,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+    </AbsoluteLayout>
 
 </ContentPage>
